@@ -1,26 +1,35 @@
-# ancile-talent-intelligence-dashboard
+# Ancile Talent Intelligence Dashboard
 
-A self-project focused on building an AI-powered talent intelligence dashboard for skill analysis, candidate insights, recruitment analytics, and workforce decision-making.
+A self-initiated AI-powered talent analytics dashboard project inspired by real-world recruitment and workforce analytics systems. The project helps analyze candidate skills, track placement trends, and provide role recommendations using machine learning techniques.
 
-## About the Project
+## What it does
 
-Ancile Talent Intelligence Dashboard is a web application designed to help organizations analyze talent data, monitor candidate performance, track workforce skills, and gain recruitment insights through interactive dashboards and analytics.
-
-## Features
-
-- Candidate skill analysis
-- Recruitment and hiring insights
-- Talent performance tracking
-- Interactive analytics dashboard
-- Data-driven workforce intelligence
+- Interactive dashboard showing hiring trends and skill demand
+- Candidate pipeline and placement success analytics
+- AI-powered skill matcher — input skills, get role recommendation + match score
+- Data cleaning and preprocessing pipeline for recruitment data
 
 ## Tech Stack
 
-- Frontend: React / Next.js
-- Backend: Node.js / Express
-- Database: MongoDB / PostgreSQL
-- Visualization: Chart.js / Recharts
+- Data processing: Python, Pandas
+- Dashboard: Power BI
+- Web UI: Streamlit
+- AI / ML: Scikit-learn, TF-IDF, Cosine Similarity
+- Version control: GitHub
+
+## Project Structure
+
+```text
+ancile-talent-intelligence-dashboard/
+├── data/          # Candidate datasets (CSV)
+├── notebooks/     # Data cleaning and analysis scripts
+├── dashboard/     # Power BI dashboard file
+├── ai-module/     # Skill matcher (skill_matcher.py)
+├── docs/          # Screenshots, report, presentation
+└── README.md
+```
 
 ## Author
 
 Nakka Vinay Venkata Bhargav
+May 2026 – June 2026
